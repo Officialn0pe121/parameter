@@ -10,7 +10,7 @@ function DoSomething(message, title, time)
 end
 
 -- this is a local function meaning you can only use this within this file
--- no parameters are needed yet since this is the call to assign values and call the function to print values
+-- this is the function where we send our values to the print function
 -- when calling the function you want to send values to keep the order the same in both the call and declaration
 -- make sure you assign the right type of variable in this function otherwise it wont work properly in the print function
 local AssignValues = function()
